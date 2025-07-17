@@ -22,3 +22,14 @@ A falta de acompanhamento regular do estado emocional pode dificultar o reconhec
 - Baixa adesão a práticas de auto-observação e bem-estar emocional.
 
 O **HumorHoje** surge como uma solução prática e empática para auxiliar nesse processo de autoconhecimento e cuidado emocional, incentivando a construção de uma rotina de bem-estar de forma leve e personalizada.
+
+## 📁 Estrutura de Pastas
+
+- **docs/requirements**: 📝 Documentação do projeto.
+  - **diagrams/**: 🧩 Diagramas de requisitos.
+    - **BPMN/**: 🔄 Diagrama BPMN.
+    - **Estado/**: 🔁 Diagramas de estado.
+    - **NFR/**: 🛠️ Diagramas NFR (Requisitos Não Funcionais).
+    - **UC/**: 📌 Diagramas de casos de uso.
+  - **functional/**: ✅ Requisitos funcionais.
+  - **non_functional/**: ⚙️ Requisitos não funcionais.
