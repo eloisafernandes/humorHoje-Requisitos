@@ -1,0 +1,24 @@
+@startuml
+left to right direction
+
+actor "Psicólogo" as Psychologist
+actor "Usuário Comum" as User
+
+rectangle "Colaboração com Psicólogo" {
+  usecase "Integração com Usuário Psicólogo" as RF16_uc
+  usecase "Definição de Metas pelo Psicólogo" as RF17_uc
+  usecase "Adicionar Anotações" as RF18_uc
+  usecase "Monitorar Paciente" as UC_Monitor
+}
+
+Psychologist -- RF16_uc
+Psychologist -- RF17_uc
+Psychologist -- RF18_uc
+Psychologist -- UC_Monitor
+
+RF16_uc ..> UC_Monitor : <<includes>>
+RF17_uc .> UC_Monitor : <<extends>>
+RF18_uc .> UC_Monitor : <<extends>>
+
+User -- RF16_uc : <<associates>>
+@enduml

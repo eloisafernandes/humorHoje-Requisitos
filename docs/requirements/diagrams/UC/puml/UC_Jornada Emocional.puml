@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+actor "Usuário Comum" as User
+
+rectangle "Jornada Emocional" {
+  usecase "Registrar Estado Emocional" as RF02_uc
+  usecase "Adicionar Sentimento/Humor" as RF03_uc
+  usecase "Registrar Informações Complementares" as RF04_uc
+  usecase "Visualizar Histórico Emocional" as RF05_uc
+  usecase "Visualizar Registro Individual" as RF06_uc
+  usecase "Representação Gráfica da Jornada Emocional (Linha do Tempo de Humor)" as RF07_uc
+  usecase "Personalizar Registros no Diário" as RF14_uc
+  usecase "Receber Sugestões de Atividades de Bem-Estar" as RF08_uc
+  usecase "Configurar Lembretes Opcionais de Registro Diário" as RF09_uc
+}
+
+User -- RF02_uc
+User -- RF03_uc
+User -- RF04_uc
+User -- RF05_uc
+User -- RF06_uc
+User -- RF07_uc
+User -- RF14_uc
+User -- RF08_uc
+User -- RF09_uc
+
+RF02_uc ..> RF04_uc : <<includes>>
+RF05_uc ..> RF06_uc : <<includes>>
+RF05_uc ..> RF07_uc : <<includes>>
+@enduml

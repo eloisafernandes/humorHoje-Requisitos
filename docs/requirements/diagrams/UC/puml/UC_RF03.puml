@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+actor "Usuário Comum" as User
+
+rectangle "Adicionar Sentimento/Humor (RF03)" {
+  usecase "Adicionar Sentimento/Humor" as RF03_main
+
+  ' Detalhes específicos de RF03
+  usecase "Escolher Nome para Sentimento" as RF03_detail_name
+  usecase "Associar Emoji ao Sentimento" as RF03_detail_emoji
+}
+
+User -- RF03_main
+
+RF03_main .> RF03_detail_name : <<includes>>
+RF03_main .> RF03_detail_emoji : <<includes>>
+@enduml

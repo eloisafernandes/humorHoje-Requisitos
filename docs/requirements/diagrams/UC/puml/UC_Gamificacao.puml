@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+
+actor "Usuário Comum" as User
+
+rectangle "Gamificação" {
+  usecase "Sistema de Recompensas por Engajamento" as RF10_uc
+  usecase "Desafios e Missões" as RF11_uc
+  usecase "Notificações de Gamificação" as RF12_uc
+  usecase "Controle de Gamificação" as RF13_uc
+}
+
+User -- RF10_uc
+User -- RF11_uc
+User -- RF12_uc
+User -- RF13_uc
+
+RF10_uc ..> RF12_uc : <<includes>>
+RF11_uc ..> RF10_uc : <<extends>>
+RF11_uc ..> RF12_uc : <<includes>>
+@enduml
