@@ -1,0 +1,654 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "f87f3440-84b6-4ce0-af3b-b01fab0d9c46",
+      "text": "Segurança",
+      "type": "nfr.NFR",
+      "x": 1643,
+      "y": 127
+    },
+    {
+      "id": "5edf8ec7-6285-4cf4-b655-d142beef72ae",
+      "text": "Confiabilidade",
+      "type": "nfr.NFR",
+      "x": 421,
+      "y": 89
+    },
+    {
+      "id": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f",
+      "text": "Usabilidade",
+      "type": "nfr.NFR",
+      "x": 1031,
+      "y": 115
+    },
+    {
+      "id": "997a7077-7049-43ad-afa5-ba1fe95bec37",
+      "text": "Registrar Humor de Forma Offline",
+      "type": "nfr.Operationalization",
+      "x": 515,
+      "y": 220
+    },
+    {
+      "id": "c1d2e3f4-a5b6-c7d8-e9f0-1a2b3c4d5e6f",
+      "text": "Armazenamento Local Temporário",
+      "type": "nfr.Operationalization",
+      "x": 430,
+      "y": 402
+    },
+    {
+      "id": "d2e3f4a5-b6c7-d8e9-f0a1-2b3c4d5e6f7a",
+      "text": "Sincronização Automática",
+      "type": "nfr.Operationalization",
+      "x": 615,
+      "y": 381
+    },
+    {
+      "id": "6e801c4a-26ad-412f-a170-50d24d0bc7f3",
+      "text": "Fazer Backup Diário",
+      "type": "nfr.Operationalization",
+      "x": 258,
+      "y": 299
+    },
+    {
+      "id": "e3f4a5b6-c7d8-e9f0-a1b2-3c4d5e6f7a8b",
+      "text": "Backup na Nuvem (Cloud)",
+      "type": "nfr.Operationalization",
+      "x": 365,
+      "y": 552
+    },
+    {
+      "id": "f4a5b6c7-d8e9-f0a1-b2c3-4d5e6f7a8b9c",
+      "text": "Estratégia de Restauração",
+      "type": "nfr.NFR",
+      "x": 133,
+      "y": 462
+    },
+    {
+      "id": "nfr-rto-1",
+      "text": "Definir RTO < 4 horas",
+      "type": "nfr.NFR",
+      "x": 9,
+      "y": 680
+    },
+    {
+      "id": "op-test-restore-1",
+      "text": "Testar a Restauração Trimestralmente",
+      "type": "nfr.Operationalization",
+      "x": 201,
+      "y": 673
+    },
+    {
+      "id": "de83ee86-28f4-4915-a1c8-2af81d05c542",
+      "text": "Interface Intuitiva (UX/UI)",
+      "type": "nfr.NFR",
+      "x": 949,
+      "y": 458
+    },
+    {
+      "id": "a5b6c7d8-e9f0-a1b2-c3d4-5e6f7a8b9c0d",
+      "text": "Consistência de Design",
+      "type": "nfr.NFR",
+      "x": 839,
+      "y": 647
+    },
+    {
+      "id": "b6c7d8e9-f0a1-b2c3-d4e5-6f7a8b9c0d1e",
+      "text": "Feedback Visual ao Usuário",
+      "type": "nfr.NFR",
+      "x": 1007,
+      "y": 661
+    },
+    {
+      "id": "09bddb8d-2fb2-4610-9ec7-fc0838a68911",
+      "text": "Eficiência na primeira tarefa (<1min)",
+      "type": "nfr.NFR",
+      "x": 1290,
+      "y": 227
+    },
+    {
+      "id": "55590753-ce61-4cb6-8ffe-e5778be030d6",
+      "text": "Comunicação clara",
+      "type": "nfr.NFR",
+      "x": 1238,
+      "y": 420
+    },
+    {
+      "id": "c7d8e9f0-a1b2-c3d4-e5f6-7a8b9c0d1e2f",
+      "text": "Mensagens de Erro Úteis",
+      "type": "nfr.NFR",
+      "x": 1254,
+      "y": 574
+    },
+    {
+      "id": "d8e9f0a1-b2c3-d4e5-f6a7-8b9c0d1e2f3a",
+      "text": "Textos e Rótulos Concisos",
+      "type": "nfr.NFR",
+      "x": 1400,
+      "y": 591
+    },
+    {
+      "id": "58d4a68b-86e6-4624-a42e-2828f82b58f1",
+      "text": "Design Responsivo",
+      "type": "nfr.NFR",
+      "x": 1101,
+      "y": 366
+    },
+    {
+      "id": "op-resp-mobile-1",
+      "text": "Layout Adaptável a Telas Móveis e Tablets",
+      "type": "nfr.Operationalization",
+      "x": 1076,
+      "y": 540
+    },
+    {
+      "id": "e9f0a1b2-c3d4-e5f6-a7b8-9c0d1e2f3a4b",
+      "text": "Acessibilidade (WCAG)",
+      "type": "nfr.NFR",
+      "x": 789,
+      "y": 328
+    },
+    {
+      "id": "f0a1b2c3-d4e5-f6a7-b8c9-0d1e2f3a4b5c",
+      "text": "Suporte a Leitor de Tela",
+      "type": "nfr.Operationalization",
+      "x": 625,
+      "y": 559
+    },
+    {
+      "id": "a1b2c3d4-e5f6-a7b8-c9d0-1e2f3a4b5c6d",
+      "text": "Contraste de Cores Adequado",
+      "type": "nfr.Operationalization",
+      "x": 798,
+      "y": 494
+    },
+    {
+      "id": "a928940a-eb8c-4bb1-b2b3-34c5f832f51b",
+      "text": "Criptografar Dados em Repouso",
+      "type": "nfr.Operationalization",
+      "x": 1499,
+      "y": 264
+    },
+    {
+      "id": "b2c3d4e5-f6a7-b8c9-d0e1-2f3a4b5c6d7e",
+      "text": "Criptografia Simétrica (AES-256)",
+      "type": "nfr.Operationalization",
+      "x": 1422,
+      "y": 403
+    },
+    {
+      "id": "c3d4e5f6-a7b8-c9d0-e1f2-3a4b5c6d7e8f",
+      "text": "Criptografia Assimétrica (RSA)",
+      "type": "nfr.Operationalization",
+      "x": 1617,
+      "y": 428
+    },
+    {
+      "id": "c853582c-03aa-4114-bf6e-2ea9ab9f0b29",
+      "text": "Comunicação Segura",
+      "type": "nfr.NFR",
+      "x": 1767,
+      "y": 331
+    },
+    {
+      "id": "cfdaffea-e9fe-48c7-a599-671e562495dc",
+      "text": "Segurança na Camada de Transporte (TLS)",
+      "type": "nfr.Operationalization",
+      "x": 1688,
+      "y": 568
+    },
+    {
+      "id": "4fc0e942-ce12-4410-b92d-8f8e815dc01c",
+      "text": "Criptografia de Ponta-a-Ponta (E2EE)",
+      "type": "nfr.Operationalization",
+      "x": 1858,
+      "y": 574
+    },
+    {
+      "id": "d4e5f6a7-b8c9-d0e1-f2a3-4b5c6d7e8f9a",
+      "text": "Controle de Acesso",
+      "type": "nfr.NFR",
+      "x": 1992,
+      "y": 204
+    },
+    {
+      "id": "e5f6a7b8-c9d0-e1f2-a3b4-5c6d7e8f9a0b",
+      "text": "Autenticação de Usuário",
+      "type": "nfr.NFR",
+      "x": 2214,
+      "y": 553
+    },
+    {
+      "id": "f6a7b8c9-d0e1-f2a3-b4c5-6d7e8f9a0b1c",
+      "text": "Login/Senha",
+      "type": "nfr.Operationalization",
+      "x": 2234,
+      "y": 703
+    },
+    {
+      "id": "a7b8c9d0-e1f2-a3b4-c5d6-7e8f9a0b1c2d",
+      "text": "Autenticação de 2 Fatores (2FA)",
+      "type": "nfr.Operationalization",
+      "x": 1599,
+      "y": 658
+    },
+    {
+      "id": "nfr-rbac-1",
+      "text": "Gerenciar Perfis de Acesso (RBAC)",
+      "type": "nfr.NFR",
+      "x": 1920,
+      "y": 366
+    },
+    {
+      "id": "op-role-psy-1",
+      "text": "Definir Papel 'Psicólogo'",
+      "type": "nfr.Operationalization",
+      "x": 2055,
+      "y": 497
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "3e3ec763-bf3e-4f49-82bb-3138355e498b",
+      "type": "nfr.AndRefinementLink",
+      "source": "997a7077-7049-43ad-afa5-ba1fe95bec37",
+      "target": "5edf8ec7-6285-4cf4-b655-d142beef72ae"
+    },
+    {
+      "id": "38ff1194-1b0b-48eb-b529-e4874ab98b33",
+      "type": "nfr.AndRefinementLink",
+      "source": "6e801c4a-26ad-412f-a170-50d24d0bc7f3",
+      "target": "5edf8ec7-6285-4cf4-b655-d142beef72ae"
+    },
+    {
+      "id": "c56243dd-aee3-42bd-bbf8-ad1e7492e733",
+      "type": "nfr.AndRefinementLink",
+      "source": "de83ee86-28f4-4915-a1c8-2af81d05c542",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f"
+    },
+    {
+      "id": "9ad6fb86-29d4-43cd-ac76-645bcac680b2",
+      "type": "nfr.AndRefinementLink",
+      "source": "09bddb8d-2fb2-4610-9ec7-fc0838a68911",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f"
+    },
+    {
+      "id": "7e0d83bd-2490-4f6c-a091-d254fb0c8d3e",
+      "type": "nfr.AndRefinementLink",
+      "source": "55590753-ce61-4cb6-8ffe-e5778be030d6",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f"
+    },
+    {
+      "id": "b56da925-2d07-41fb-b4b9-dcc84e61b258",
+      "type": "nfr.AndRefinementLink",
+      "source": "58d4a68b-86e6-4624-a42e-2828f82b58f1",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f"
+    },
+    {
+      "id": "e820b622-73ee-447f-9919-4fe1a11b95e1",
+      "type": "nfr.AndRefinementLink",
+      "source": "a928940a-eb8c-4bb1-b2b3-34c5f832f51b",
+      "target": "f87f3440-84b6-4ce0-af3b-b01fab0d9c46"
+    },
+    {
+      "id": "243b96d7-28d5-4da9-8413-b06f29b92d0a",
+      "type": "nfr.CorrelationLink",
+      "source": "f87f3440-84b6-4ce0-af3b-b01fab0d9c46",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f",
+      "label": "– –"
+    },
+    {
+      "id": "aa0d0544-52bf-416f-8d4b-5dd88ea44fdf",
+      "type": "nfr.ContributionLink",
+      "source": "997a7077-7049-43ad-afa5-ba1fe95bec37",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f",
+      "label": "+"
+    },
+    {
+      "id": "link-or-crypt-1",
+      "type": "nfr.OrRefinementLink",
+      "source": "b2c3d4e5-f6a7-b8c9-d0e1-2f3a4b5c6d7e",
+      "target": "a928940a-eb8c-4bb1-b2b3-34c5f832f51b"
+    },
+    {
+      "id": "link-or-crypt-2",
+      "type": "nfr.OrRefinementLink",
+      "source": "c3d4e5f6-a7b8-c9d0-e1f2-3a4b5c6d7e8f",
+      "target": "a928940a-eb8c-4bb1-b2b3-34c5f832f51b"
+    },
+    {
+      "id": "link-and-sec-access",
+      "type": "nfr.AndRefinementLink",
+      "source": "d4e5f6a7-b8c9-d0e1-f2a3-4b5c6d7e8f9a",
+      "target": "f87f3440-84b6-4ce0-af3b-b01fab0d9c46"
+    },
+    {
+      "id": "link-and-access-auth",
+      "type": "nfr.AndRefinementLink",
+      "source": "e5f6a7b8-c9d0-e1f2-a3b4-5c6d7e8f9a0b",
+      "target": "d4e5f6a7-b8c9-d0e1-f2a3-4b5c6d7e8f9a"
+    },
+    {
+      "id": "link-or-auth-1",
+      "type": "nfr.OrRefinementLink",
+      "source": "f6a7b8c9-d0e1-f2a3-b4c5-6d7e8f9a0b1c",
+      "target": "e5f6a7b8-c9d0-e1f2-a3b4-5c6d7e8f9a0b"
+    },
+    {
+      "id": "link-or-auth-2",
+      "type": "nfr.OrRefinementLink",
+      "source": "a7b8c9d0-e1f2-a3b4-c5d6-7e8f9a0b1c2d",
+      "target": "e5f6a7b8-c9d0-e1f2-a3b4-5c6d7e8f9a0b"
+    },
+    {
+      "id": "link-contrib-2fa-usa",
+      "type": "nfr.ContributionLink",
+      "source": "a7b8c9d0-e1f2-a3b4-c5d6-7e8f9a0b1c2d",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f",
+      "label": "-"
+    },
+    {
+      "id": "link-and-offline-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "c1d2e3f4-a5b6-c7d8-e9f0-1a2b3c4d5e6f",
+      "target": "997a7077-7049-43ad-afa5-ba1fe95bec37"
+    },
+    {
+      "id": "link-and-offline-2",
+      "type": "nfr.AndRefinementLink",
+      "source": "d2e3f4a5-b6c7-d8e9-f0a1-2b3c4d5e6f7a",
+      "target": "997a7077-7049-43ad-afa5-ba1fe95bec37"
+    },
+    {
+      "id": "link-and-backup-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "e3f4a5b6-c7d8-e9f0-a1b2-3c4d5e6f7a8b",
+      "target": "6e801c4a-26ad-412f-a170-50d24d0bc7f3"
+    },
+    {
+      "id": "link-and-backup-2",
+      "type": "nfr.AndRefinementLink",
+      "source": "f4a5b6c7-d8e9-f0a1-b2c3-4d5e6f7a8b9c",
+      "target": "6e801c4a-26ad-412f-a170-50d24d0bc7f3"
+    },
+    {
+      "id": "link-and-usa-access",
+      "type": "nfr.AndRefinementLink",
+      "source": "e9f0a1b2-c3d4-e5f6-a7b8-9c0d1e2f3a4b",
+      "target": "04e6bc30-3a4d-4b8c-8c37-46f58f08865f"
+    },
+    {
+      "id": "link-and-access-wcag-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "f0a1b2c3-d4e5-f6a7-b8c9-0d1e2f3a4b5c",
+      "target": "e9f0a1b2-c3d4-e5f6-a7b8-9c0d1e2f3a4b"
+    },
+    {
+      "id": "link-and-access-wcag-2",
+      "type": "nfr.AndRefinementLink",
+      "source": "a1b2c3d4-e5f6-a7b8-c9d0-1e2f3a4b5c6d",
+      "target": "e9f0a1b2-c3d4-e5f6-a7b8-9c0d1e2f3a4b"
+    },
+    {
+      "id": "5d5f7821-c9c0-41a9-bf0d-b33262fc48a3",
+      "type": "nfr.AndRefinementLink",
+      "source": "a5b6c7d8-e9f0-a1b2-c3d4-5e6f7a8b9c0d",
+      "target": "de83ee86-28f4-4915-a1c8-2af81d05c542"
+    },
+    {
+      "id": "e6627b93-5404-4644-8d29-37e1ef0cdb64",
+      "type": "nfr.AndRefinementLink",
+      "source": "b6c7d8e9-f0a1-b2c3-d4e5-6f7a8b9c0d1e",
+      "target": "de83ee86-28f4-4915-a1c8-2af81d05c542"
+    },
+    {
+      "id": "c6a0676c-3840-4ab9-8bce-b84c7019d84f",
+      "type": "nfr.AndRefinementLink",
+      "source": "c7d8e9f0-a1b2-c3d4-e5f6-7a8b9c0d1e2f",
+      "target": "55590753-ce61-4cb6-8ffe-e5778be030d6"
+    },
+    {
+      "id": "473b0355-2b8d-4526-86a3-b06b9398345b",
+      "type": "nfr.AndRefinementLink",
+      "source": "d8e9f0a1-b2c3-d4e5-f6a7-8b9c0d1e2f3a",
+      "target": "55590753-ce61-4cb6-8ffe-e5778be030d6"
+    },
+    {
+      "id": "c0a1c5f2-7df8-45df-bd5e-c109847cb700",
+      "type": "nfr.AndRefinementLink",
+      "source": "c853582c-03aa-4114-bf6e-2ea9ab9f0b29",
+      "target": "f87f3440-84b6-4ce0-af3b-b01fab0d9c46"
+    },
+    {
+      "id": "cd5b4d79-98f3-4bbc-98b9-225161739a0d",
+      "type": "nfr.OrRefinementLink",
+      "source": "4fc0e942-ce12-4410-b92d-8f8e815dc01c",
+      "target": "c853582c-03aa-4114-bf6e-2ea9ab9f0b29"
+    },
+    {
+      "id": "a7def0b6-0a52-44d4-85d9-9947f9cfc18f",
+      "type": "nfr.OrRefinementLink",
+      "source": "cfdaffea-e9fe-48c7-a599-671e562495dc",
+      "target": "c853582c-03aa-4114-bf6e-2ea9ab9f0b29"
+    },
+    {
+      "id": "link-restore-rto-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "nfr-rto-1",
+      "target": "f4a5b6c7-d8e9-f0a1-b2c3-4d5e6f7a8b9c"
+    },
+    {
+      "id": "link-restore-test-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "op-test-restore-1",
+      "target": "f4a5b6c7-d8e9-f0a1-b2c3-4d5e6f7a8b9c"
+    },
+    {
+      "id": "link-resp-mobile-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "op-resp-mobile-1",
+      "target": "58d4a68b-86e6-4624-a42e-2828f82b58f1"
+    },
+    {
+      "id": "link-access-rbac-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "nfr-rbac-1",
+      "target": "d4e5f6a7-b8c9-d0e1-f2a3-4b5c6d7e8f9a"
+    },
+    {
+      "id": "link-rbac-psy-1",
+      "type": "nfr.AndRefinementLink",
+      "source": "op-role-psy-1",
+      "target": "nfr-rbac-1"
+    },
+    {
+      "id": "link-conflict-e2ee-rbac-1",
+      "type": "nfr.CorrelationLink",
+      "source": "4fc0e942-ce12-4410-b92d-8f8e815dc01c",
+      "target": "nfr-rbac-1",
+      "label": "--"
+    }
+  ],
+  "display": {
+    "997a7077-7049-43ad-afa5-ba1fe95bec37": {
+      "width": 137.58648681640625,
+      "height": 72.58401489257812
+    },
+    "c1d2e3f4-a5b6-c7d8-e9f0-1a2b3c4d5e6f": {
+      "width": 147.5854949951172,
+      "height": 77.58294677734375
+    },
+    "d2e3f4a5-b6c7-d8e9-f0a1-2b3c4d5e6f7a": {
+      "width": 126.58737182617188,
+      "height": 72.58444213867188
+    },
+    "6e801c4a-26ad-412f-a170-50d24d0bc7f3": {
+      "width": 113.58877563476562,
+      "height": 69.58468627929688
+    },
+    "e3f4a5b6-c7d8-e9f0-a1b2-3c4d5e6f7a8b": {
+      "width": 143.58578491210938,
+      "height": 77.58294677734375
+    },
+    "f4a5b6c7-d8e9-f0a1-b2c3-4d5e6f7a8b9c": {
+      "width": 117.58847045898438,
+      "height": 72.58425903320312
+    },
+    "nfr-rto-1": {
+      "width": 115.58856201171875,
+      "height": 57.587249755859375
+    },
+    "op-test-restore-1": {
+      "width": 129.58718872070312,
+      "height": 80.58230590820312
+    },
+    "de83ee86-28f4-4915-a1c8-2af81d05c542": {
+      "width": 135.58670043945312,
+      "height": 82.582275390625
+    },
+    "a5b6c7d8-e9f0-a1b2-c3d4-5e6f7a8b9c0d": {
+      "width": 127.58724975585938,
+      "height": 70.58486938476562
+    },
+    "b6c7d8e9-f0a1-b2c3-d4e5-6f7a8b9c0d1e": {
+      "width": 151.58499145507812,
+      "height": 79.58273315429688
+    },
+    "09bddb8d-2fb2-4610-9ec7-fc0838a68911": {
+      "width": 112.58895874023438,
+      "height": 76.58358764648438
+    },
+    "c7d8e9f0-a1b2-c3d4-e5f6-7a8b9c0d1e2f": {
+      "width": 112.58883666992188,
+      "height": 68.5853271484375
+    },
+    "d8e9f0a1-b2c3-d4e5-f6a7-8b9c0d1e2f3a": {
+      "width": 122.58798217773438,
+      "height": 74.58380126953125
+    },
+    "op-resp-mobile-1": {
+      "width": 153.58493041992188,
+      "height": 84.58163452148438
+    },
+    "e9f0a1b2-c3d4-e5f6-a7b8-9c0d1e2f3a4b": {
+      "width": 124.58779907226562,
+      "height": 74.58380126953125
+    },
+    "f0a1b2c3-d4e5-f6a7-b8c9-0d1e2f3a4b5c": {
+      "width": 114.58877563476562,
+      "height": 72.58444213867188
+    },
+    "a1b2c3d4-e5f6-a7b8-c9d0-1e2f3a4b5c6d": {
+      "width": 120.58816528320312,
+      "height": 76.58316040039062
+    },
+    "a928940a-eb8c-4bb1-b2b3-34c5f832f51b": {
+      "width": 165.58352661132812,
+      "height": 74.58358764648438
+    },
+    "b2c3d4e5-f6a7-b8c9-d0e1-2f3a4b5c6d7e": {
+      "width": 128.58743286132812,
+      "height": 83.58184814453125
+    },
+    "c3d4e5f6-a7b8-c9d0-e1f2-3a4b5c6d7e8f": {
+      "width": 117.58840942382812,
+      "height": 78.58294677734375
+    },
+    "cfdaffea-e9fe-48c7-a599-671e562495dc": {
+      "width": 131.58694458007812,
+      "height": 79.58294677734375
+    },
+    "4fc0e942-ce12-4410-b92d-8f8e815dc01c": {
+      "width": 139.58633422851562,
+      "height": 80.582275390625
+    },
+    "d4e5f6a7-b8c9-d0e1-f2a3-4b5c6d7e8f9a": {
+      "width": 119.58816528320312,
+      "height": 70.58467102050781
+    },
+    "e5f6a7b8-c9d0-e1f2-a3b4-5c6d7e8f9a0b": {
+      "width": 110.58914184570312,
+      "height": 60.586822509765625
+    },
+    "a7b8c9d0-e1f2-a3b4-c5d6-7e8f9a0b1c2d": {
+      "width": 137.58645629882812,
+      "height": 76.58316040039062
+    },
+    "nfr-rbac-1": {
+      "width": 156.58438110351562,
+      "height": 75.58358764648438
+    },
+    "op-role-psy-1": {
+      "width": 130.58731079101562,
+      "height": 75.58358764648438
+    },
+    "e820b622-73ee-447f-9919-4fe1a11b95e1": {
+      "vertices": [
+        {
+          "x": 1637,
+          "y": 226
+        }
+      ]
+    },
+    "243b96d7-28d5-4da9-8413-b06f29b92d0a": {
+      "vertices": [
+        {
+          "x": 1482,
+          "y": 156
+        },
+        {
+          "x": 1375,
+          "y": 153
+        }
+      ]
+    },
+    "aa0d0544-52bf-416f-8d4b-5dd88ea44fdf": {
+      "vertices": [
+        {
+          "x": 832,
+          "y": 189
+        }
+      ]
+    },
+    "link-or-auth-2": {
+      "vertices": [
+        {
+          "x": 1931,
+          "y": 699
+        },
+        {
+          "x": 2052,
+          "y": 678
+        }
+      ]
+    },
+    "link-contrib-2fa-usa": {
+      "vertices": [
+        {
+          "x": 1506,
+          "y": 571
+        },
+        {
+          "x": 1388,
+          "y": 468
+        },
+        {
+          "x": 1273,
+          "y": 344
+        }
+      ]
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Mon, 21 Jul 2025 13:32:39 GMT",
+  "diagram": {
+    "width": 2365,
+    "height": 800,
+    "name": "Diário de Humor e Bem-Estar - Grafo SIG Focado",
+    "customProperties": {
+      "Description": "Grafo SIG focado nos 3 Requisitos Não Funcionais (Confiabilidade, Segurança, Usabilidade) da aplicação Diário de Humor e Bem-Estar, com refinamentos detalhados."
+    }
+  }
+}
