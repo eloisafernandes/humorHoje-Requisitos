@@ -1,0 +1,100 @@
+@startuml
+left to right direction
+
+skinparam class {
+  BackgroundColor LightYellow
+}
+
+class Usuario {
+  email
+  senha
+}
+
+class Psicologo {
+  crp
+}
+
+class RegistroHumor {
+  data
+  anotacao
+}
+
+class Sentimento {
+  nome
+  emoji
+  cor
+  classificacao
+}
+
+class InformacaoComplementar {
+  qualidade_sono
+  nivel_estresse
+  sintomas
+  atividade_fisica
+  alimentacao
+  interacoes_sociais
+}
+
+class SugestaoBemEstar {
+  titulo
+  descricao
+  fonte
+}
+
+class Recompensa {
+  tipo
+  descricao
+}
+
+class Desafio {
+  titulo
+  objetivo
+  periodo
+}
+
+class Meta {
+  tipo
+  descricao
+}
+
+class AnotacaoPsicologo {
+  conteudo
+}
+
+class Configuracao {
+  pode_compartilhar_com_psicologo
+  dados_compartilhados
+  horario_lembrete
+  frequencia_lembrete
+  tipo_notificacao
+  possui_gamificacao_ativa
+}
+
+class VisualizacaoGrafica {
+  tipo
+  periodo
+}
+
+Usuario <|-- Psicologo
+
+Usuario "1" o-- "*" RegistroHumor : possui
+RegistroHumor "1" o-- "*" Sentimento : associa
+RegistroHumor "1" o-- "0..1" InformacaoComplementar : possui
+
+Usuario "1" o-- "*" VisualizacaoGrafica : possui
+Usuario "1" o-- "*" SugestaoBemEstar : recebe
+Usuario "1" o-- "*" Recompensa : recebe
+Usuario "1" o-- "*" Desafio : participa
+Usuario "1" o-- "*" Meta : possui
+
+Psicologo "1" o-- "*" Meta : define
+Meta "1" o-- "1" Usuario : direcionada
+
+Usuario "1" o-- "1" Configuracao : configura
+
+Psicologo "1" o-- "*" AnotacaoPsicologo : escreve
+AnotacaoPsicologo "1" o-- "1" RegistroHumor : refere-
+
+Psicologo "*" o-- "*" Usuario : atende
+
+@enduml
