@@ -1,0 +1,23 @@
+@startuml
+!theme plain
+left to right direction
+
+actor "Usuário Comum" as User
+
+rectangle "Registrar Estado Emocional (RF02)" {
+  usecase "Registrar Estado Emocional" as RF02_main
+
+  ' Métodos de registro do RF02
+  usecase "Inserir Anotação Textual" as RF02_detail_text
+  usecase "Gravar Anotação de Voz" as RF02_detail_voice
+  usecase "Selecionar Sentimento da Lista Pré-definida" as RF02_detail_list
+  usecase "Utilizar Emojis" as RF02_detail_emojis
+}
+
+User -- RF02_main
+
+RF02_main .> RF02_detail_text : <<extends>>
+RF02_main .> RF02_detail_voice : <<extends>>
+RF02_main .> RF02_detail_list : <<extends>>
+RF02_main .> RF02_detail_emojis : <<extends>>
+@enduml

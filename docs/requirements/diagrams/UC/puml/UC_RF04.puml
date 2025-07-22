@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+
+actor "Usuário Comum" as User
+
+rectangle "Registrar Informações Complementares (RF04)" {
+  usecase "Registrar Informações Complementares" as RF04_main
+
+  ' Detalhes específicos de RF04
+  usecase "Registrar Qualidade do Sono" as RF04_detail_sono
+  usecase "Registrar Nível de Estresse e Ansiedade" as RF04_detail_estresse
+  usecase "Registrar Sintomas Físicos" as RF04_detail_sintomas
+  usecase "Registrar Atividade Física" as RF04_detail_atividade
+  usecase "Registrar Alimentação" as RF04_detail_alimentacao
+  usecase "Registrar Interações Sociais" as RF04_detail_sociais
+}
+
+User -- RF04_main
+
+RF04_main .> RF04_detail_sono : <<extends>>
+RF04_main .> RF04_detail_estresse : <<extends>>
+RF04_main .> RF04_detail_sintomas : <<extends>>
+RF04_main .> RF04_detail_atividade : <<extends>>
+RF04_main .> RF04_detail_alimentacao : <<extends>>
+RF04_main .> RF04_detail_sociais : <<extends>>
+@enduml

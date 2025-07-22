@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+
+actor "Psicólogo" as Psychologist
+actor "Usuário Comum" as User
+
+rectangle "Definição de Metas pelo Psicólogo (RF17)" {
+  usecase "Definir Metas Terapêuticas" as RF17_main
+
+  ' O Psicólogo seleciona metas predefinidas oferecidas pelo sistema
+  usecase "Selecionar Meta Predefinida" as RF17_uc_select_predefined
+  ' O Psicólogo cria metas personalizadas
+  usecase "Criar Meta Personalizada" as RF17_uc_create_custom
+}
+
+' Psicólogo inicia a definição de metas terapêuticas
+Psychologist -- RF17_main
+
+' A definição de metas pode ser estendida pela seleção de uma meta predefinida ou pela criação de uma meta personalizada
+RF17_main .> RF17_uc_select_predefined : <<extends>>
+RF17_main .> RF17_uc_create_custom : <<extends>>
+
+' O Psicólogo interage diretamente com as opções de seleção/criação
+Psychologist -- RF17_uc_select_predefined
+Psychologist -- RF17_uc_create_custom
+
+' O psicólogo define metas para o usuário comum
+Psychologist -- User : define metas para >
+@enduml
