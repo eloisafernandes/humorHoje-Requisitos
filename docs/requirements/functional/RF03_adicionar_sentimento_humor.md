@@ -17,3 +17,26 @@ Permitir que o usuário adicione seus próprios sentimentos ou humores torna o a
 
 Ao não impor restrições à unicidade de nomes ou emojis, o sistema prioriza a liberdade de registro, evitando frustrações ou limitações artificiais na experiência do usuário.  
 Esse nível de personalização favorece o engajamento contínuo e contribui para que o usuário se sinta acolhido e representado ao longo do uso do aplicativo.
+
+## Critérios de Aceitação
+
+- **CA01:** O sistema deve permitir que o usuário adicione manualmente um novo sentimento ou humor.
+
+- **CA02:** Cada novo sentimento deve conter:  
+  - Um nome (ex: “ansioso”);  
+  - Um emoji (ex: 😴).
+
+- **CA03:** O sistema deve impor as seguintes regras de unicidade:  
+  - **Não é permitido** adicionar sentimentos com nomes iguais a outros já existentes para o mesmo usuário;  
+  - **É permitido** repetir emojis já utilizados.
+
+- **CA04:** O sistema deve armazenar corretamente os sentimentos adicionados e disponibilizá-los para seleção em registros futuros.
+
+- **CA05:** O sistema deve validar que os campos foram preenchidos antes de permitir o salvamento.
+
+- **CA06:** O sistema deve exibir uma mensagem de confirmação após a adição bem-sucedida do novo sentimento (ex: “Sentimento adicionado com sucesso”).
+
+- **CA07:** Os sentimentos adicionados devem ser exclusivos do usuário que os criou, não interferindo na experiência de outros usuários.
+
+
+
