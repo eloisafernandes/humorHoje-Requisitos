@@ -40,3 +40,5 @@ Ao incluir metas predefinidas e customizadas, o sistema oferece flexibilidade e 
 
 - **CA06:** O usuário deve receber notificações e lembretes relacionados às metas definidas, incentivando o cumprimento dos objetivos terapêuticos.
 
+**Acesse o Caso de Uso 06 - Psicologo:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1Kz6VvMyTQ8bi7Ey4sgceM69Mb1fMnPUS/view?usp=sharing)

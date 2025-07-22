@@ -37,3 +37,6 @@ Esse mecanismo também pode aumentar a retenção do usuário e promover uma exp
 - **CA05:** As recompensas devem ser vinculadas individualmente a cada usuário e mantidas persistentes após logout ou atualização do app.
 
 - **CA06:** O sistema deve enviar notificações ou mensagens de congratulação quando o usuário conquistar uma nova recompensa.
+
+**Acesse o Caso de Uso 05 - Gamificação:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1yWPpVSZCT8n9ZCsnSAljJAKBleyfJpZj/view?usp=sharing)

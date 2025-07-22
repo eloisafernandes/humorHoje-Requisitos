@@ -45,3 +45,6 @@ Essa funcionalidade é essencial para equilibrar a colaboração entre usuário 
 
 - **CA08:** O usuário deve receber uma confirmação visual ou mensagem sempre que realizar alterações nas configurações de compartilhamento.
 
+
+**Acesse o Caso de Uso 06 - Psicologo:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1Kz6VvMyTQ8bi7Ey4sgceM69Mb1fMnPUS/view?usp=sharing)

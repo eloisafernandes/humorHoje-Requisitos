@@ -28,3 +28,7 @@ Essa funcionalidade apoia a jornada do usuário ao fornecer recursos práticos p
 - **CA03:** O sistema deve apresentar as sugestões de forma clara, com descrição, tipo de atividade (ex: relaxamento, artigo, vídeo) e, quando aplicável, instruções para execução.
 
 - **CA04:** O usuário deve poder acessar as sugestões a qualquer momento em uma seção dedicada do aplicativo e marcar aquelas que deseja experimentar ou já realizou.
+
+
+ **Acesse o Caso de Uso 01 - Jornada Emocional:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1uHwN2ZoX-hZo0s-Nux4ztnLxPx7Dcon6/view?usp=sharing)

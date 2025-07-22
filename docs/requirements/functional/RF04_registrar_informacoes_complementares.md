@@ -47,3 +47,6 @@ Além disso, essas informações podem auxiliar tanto o próprio usuário quanto
 - **CA06:** O usuário deve poder visualizar posteriormente essas informações no histórico de humor.
 
 - **CA07:** O sistema deve garantir que os dados inseridos fiquem visíveis apenas para o próprio usuário ou profissionais autorizados (em conformidade com as regras de privacidade).
+
+**Acesse o Caso de Uso 04 - Registrar Informações Complementares:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1O_Q0bcSFxF-SeQQasoSTFm2JgVQy3kZU/view?usp=sharing)

@@ -37,3 +37,6 @@ Essa funcionalidade contribui diretamente para o engajamento do usuário com o a
 
 - **CA06:** O componente de gravação deve solicitar permissão de uso do microfone, conforme exigido pelo sistema operacional.
 
+
+ **Acesse o Caso de Uso 02 - Registrar Estado Emocional:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1LFpTWo5xNDnZOptjMGTV1ZY0_w7nH3pS/view?usp=sharing)

@@ -23,3 +23,5 @@ Uma interface clara e responsiva aumenta a satisfação e reduz barreiras ao reg
 - Deve-se seguir as melhores práticas e guidelines de UX/UI.  
 - Testes de usabilidade devem ser conduzidos periodicamente para validar a facilidade de uso.  
 - Considerar acessibilidade para diferentes perfis de usuários.
+
+👉 [Ver RNF03 – Usabilidade no Grafo NFR](https://drive.google.com/file/d/116588AFrYBHpNhVAQ5aezO3UyFu2rY_2/view?usp=sharing)

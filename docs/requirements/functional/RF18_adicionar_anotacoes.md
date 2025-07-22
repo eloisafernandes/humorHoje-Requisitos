@@ -32,3 +32,5 @@ Esse recurso contribui para um atendimento mais personalizado e organizado, auxi
 - **CA06:** O psicólogo deve poder visualizar uma lista ou histórico das anotações feitas para cada paciente.
 
 
+**Acesse o Caso de Uso 06 - Psicologo:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1Kz6VvMyTQ8bi7Ey4sgceM69Mb1fMnPUS/view?usp=sharing)

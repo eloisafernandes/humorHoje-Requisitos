@@ -32,3 +32,6 @@ Essa funcionalidade contribui para o engajamento e a satisfação do usuário, t
 - **CA05:** O sistema deve disponibilizar uma opção para o usuário limpar todas as personalizações feitas em um registro, restaurando-o ao tema-padrão.
 
 - **CA06:** As personalizações devem ser salvas e persistidas, garantindo que ao acessar novamente o registro, as configurações escolhidas sejam mantidas.
+
+**Acesse o Caso de Uso 06 - Psicologo:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1Kz6VvMyTQ8bi7Ey4sgceM69Mb1fMnPUS/view?usp=sharing)

@@ -44,3 +44,5 @@ Ao oferecer diferentes formas de visualização (lista e calendário), o sistema
 - **CA09:** Os áudios registrados devem estar acessíveis com botão de reprodução diretamente na interface do histórico.
 
 
+ **Acesse o Caso de Uso 01 - Jornada Emocional:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1uHwN2ZoX-hZo0s-Nux4ztnLxPx7Dcon6/view?usp=sharing)

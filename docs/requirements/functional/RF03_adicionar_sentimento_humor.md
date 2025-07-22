@@ -39,4 +39,5 @@ Esse nível de personalização favorece o engajamento contínuo e contribui par
 - **CA07:** Os sentimentos adicionados devem ser exclusivos do usuário que os criou, não interferindo na experiência de outros usuários.
 
 
-
+ **Acesse o Caso de Uso 03 - Adicionar Sentimento Humor:**  
+[📄 Visualizar imagem](https://drive.google.com/drive/folders/1EX_Y-lNCC3ZgQuc3HMN-vqBjEOEOc6jk)

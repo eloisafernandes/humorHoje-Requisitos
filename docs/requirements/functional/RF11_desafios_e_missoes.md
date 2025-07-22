@@ -33,4 +33,5 @@ Além disso, os desafios podem ampliar o repertório de práticas do usuário, f
 
 - **CA06:** O sistema deve possibilitar ao usuário visualizar desafios ativos, pendentes e concluídos em uma seção dedicada do aplicativo.
 
-
+**Acesse o Caso de Uso 07 - Detalhamento Definição Metas do Psicologo:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1LCGg95hx9IkC-KMYqgbjoDZJl1epXidb/view?usp=sharing)

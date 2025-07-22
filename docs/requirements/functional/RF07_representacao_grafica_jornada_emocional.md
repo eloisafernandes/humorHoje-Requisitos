@@ -32,3 +32,5 @@ Essa funcionalidade também serve como uma ferramenta valiosa para profissionais
 
 - **CA04:** O usuário deve poder interagir com o gráfico, por exemplo, passando o cursor ou tocando nos pontos para visualizar detalhes do registro naquele dia específico.
 
+**Acesse o Caso de Uso 01 - Jornada Emocional:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1uHwN2ZoX-hZo0s-Nux4ztnLxPx7Dcon6/view?usp=sharing)

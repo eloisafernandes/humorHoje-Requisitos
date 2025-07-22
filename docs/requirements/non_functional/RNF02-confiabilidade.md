@@ -17,3 +17,6 @@ A implementação de backups diários protege os dados dos usuários contra perd
 - Recomenda-se o uso de armazenamento local (ex.: SQLite, IndexedDB) para registros offline.  
 - O processo de sincronização deve tratar conflitos de dados de forma segura e transparente.  
 - O backup deve ser armazenado em local seguro, com criptografia e acesso controlado.
+
+
+👉 [Ver RNF02 – Confiabilidade no Grafo NFR](https://drive.google.com/file/d/116588AFrYBHpNhVAQ5aezO3UyFu2rY_2/view?usp=sharing)

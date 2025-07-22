@@ -43,3 +43,6 @@ Além disso, essa funcionalidade apoia a consulta com profissionais de saúde me
 - **CA08:** O sistema deve exibir corretamente registros antigos, mesmo que não contenham todos os campos disponíveis nas versões mais recentes do app.
 
 - **CA09:** O tempo de carregamento das informações deve ser rápido, mesmo em conexões lentas, garantindo uma boa experiência de uso.
+
+ **Acesse o Caso de Uso 01 - Jornada Emocional:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1uHwN2ZoX-hZo0s-Nux4ztnLxPx7Dcon6/view?usp=sharing)

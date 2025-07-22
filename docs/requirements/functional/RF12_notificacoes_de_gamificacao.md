@@ -30,3 +30,6 @@ Além disso, as notificações in-app proporcionam uma experiência interativa e
 - **CA04:** As notificações in-app devem ser exibidas de forma não intrusiva, permitindo que o usuário continue a usar o aplicativo sem interrupções significativas.
 
 - **CA05:** O sistema deve garantir que as notificações sejam entregues apenas para o próprio usuário e em conformidade com as permissões do dispositivo.
+
+**Acesse o Caso de Uso 05 - Gamificação:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1yWPpVSZCT8n9ZCsnSAljJAKBleyfJpZj/view?usp=sharing)

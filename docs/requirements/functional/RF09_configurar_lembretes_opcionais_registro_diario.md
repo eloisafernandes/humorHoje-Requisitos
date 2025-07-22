@@ -39,3 +39,7 @@ Essa funcionalidade é fundamental para garantir que o usuário se lembre de reg
 - **CA05:** As notificações de lembrete devem ser entregues de forma confiável no dispositivo, respeitando as configurações de permissão do sistema operacional.
 
 - **CA06:** O sistema deve armazenar as configurações personalizadas do usuário e mantê-las mesmo após logout ou atualização do aplicativo.
+
+
+ **Acesse o Caso de Uso 01 - Jornada Emocional:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1uHwN2ZoX-hZo0s-Nux4ztnLxPx7Dcon6/view?usp=sharing)

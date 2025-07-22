@@ -19,3 +19,5 @@ O uso de criptografia local e comunicação segura fortalece a confiança dos us
 - Recomenda-se o uso de criptografia AES-256 para armazenamento local.  
 - Para comunicação, utilizar TLS 1.2+ com certificados válidos e práticas seguras de handshake.  
 - Implementar mecanismos para monitorar e registrar tentativas de acesso não autorizado.
+
+👉 [Ver RNF04 – Segurança no Grafo NFR](https://drive.google.com/file/d/116588AFrYBHpNhVAQ5aezO3UyFu2rY_2/view?usp=sharing)

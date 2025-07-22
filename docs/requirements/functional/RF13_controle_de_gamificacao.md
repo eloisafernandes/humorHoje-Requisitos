@@ -27,3 +27,5 @@ Ao oferecer essa opção, o sistema amplia sua aceitação e usabilidade, atende
 
 - **CA03:** As preferências do usuário em relação à gamificação devem ser salvas e mantidas persistentes entre sessões e dispositivos.
 
+**Acesse o Caso de Uso 05 - Gamificação:**  
+[📄 Visualizar imagem](https://drive.google.com/file/d/1yWPpVSZCT8n9ZCsnSAljJAKBleyfJpZj/view?usp=sharing)
