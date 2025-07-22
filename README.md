@@ -33,3 +33,13 @@ O **HumorHoje** surge como uma solução prática e empática para auxiliar ness
     - **UC/**: 📌 Diagramas de casos de uso.
   - **functional/**: ✅ Requisitos funcionais.
   - **non_functional/**: ⚙️ Requisitos não funcionais.
+
+## 📂 Drive
+
+Acesse o material complementar no Google Drive:  
+👉 [Abrir pasta no Drive](https://drive.google.com/drive/folders/1dIvLHFrwQkI-1DrIBjoSOvDdy_Ll2CCq)
+
+## 📊 Matriz
+
+Consulte a matriz de rastreabilidade dos requisitos:  
+👉 [Ver Matriz de Rastreabilidade](https://docs.google.com/spreadsheets/d/1FXee15Yag3-4iN87UDyYJuKxoCDd2lHJI1cPKkLrAf0/edit?usp=sharing)
